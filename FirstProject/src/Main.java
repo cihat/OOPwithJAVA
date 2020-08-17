@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
 
   public static void main(String[] args) {
-    int a;
+    /*int a;
     int b;
     int total;
     Scanner scn = new Scanner(System.in);
@@ -17,6 +17,11 @@ public class Main {
     sdf.goster();
     for (int cihat = 0; cihat < 3456 ; cihat++) {
       System.out.println("MErhabababababababab");
+    }
+    */
+     int dizi[] = {2, 3, 5, 6};
+    for (int ogrenci:dizi) {
+      System.out.println(ogrenci);
     }
   }
 }
