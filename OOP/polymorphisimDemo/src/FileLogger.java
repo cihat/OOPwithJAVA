@@ -1,5 +1,5 @@
-public class FileLogger extends BaseLogger{
-  public void Log(String message) {
-    System.out.println("Logger to Email: " + message);
+public class FileLogger extends BaseLogger {
+  public void log(String message) {
+    System.out.println("Logger to File: " + message);
   }
 }

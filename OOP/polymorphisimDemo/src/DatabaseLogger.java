@@ -1,5 +1,5 @@
 public class DatabaseLogger extends BaseLogger {
-  public void Log(String message) {
+  public void log(String message) {
     System.out.println("Logger to Database : " + message);
   }
 }
