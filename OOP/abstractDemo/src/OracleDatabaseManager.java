@@ -1,0 +1,6 @@
+public class OracleDatabaseManager extends BaseDataBaseManager {
+  @Override
+  public void getData() {
+    System.out.println("Veri Getirildi: Oracle");
+  }
+}

@@ -1,0 +1,3 @@
+class OgretmenKrediManager extends BaseKrediManager{
+
+}
