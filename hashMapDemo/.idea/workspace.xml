@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da154eed-d226-48b2-a457-ce032b538f33" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../interfaceDemo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/out/production/staticDemo/DatabaseHelper$Connection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/out/production/staticDemo/DatabaseHelper$Crud.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/out/production/staticDemo/DatabaseHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/out/production/staticDemo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/out/production/staticDemo/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/out/production/staticDemo/ProductManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/out/production/staticDemo/ProductValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/src/DatabaseHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/src/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/src/ProductManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/src/ProductValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../staticDemo/staticDemo.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1gK8U0pR8d6nT6eQtxKYVxZzZgT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="Main" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="hashMapDemo" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da154eed-d226-48b2-a457-ce032b538f33" name="Default Changelist" comment="" />
+      <created>1597851937012</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597851937012</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1828" y="110" key="FileChooserDialogImpl" timestamp="1597852996863">
+      <screen x="1366" y="0" width="1366" height="738" />
+    </state>
+    <state x="1828" y="110" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1597852996863" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1597853019559">
+      <screen x="1366" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1597853019559" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1597853019559">
+      <screen x="1366" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1597853019559" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1597853019559">
+      <screen x="1366" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1597853019559" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1597853019559">
+      <screen x="1366" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1597853019559" />
+    <state x="1431" y="0" key="new project wizard" timestamp="1597853018449">
+      <screen x="1366" y="0" width="1366" height="738" />
+    </state>
+    <state x="1431" y="0" key="new project wizard/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1597853018449" />
+    <state x="1705" y="165" width="672" height="677" key="run.anything.popup" timestamp="1597852779415">
+      <screen x="1366" y="0" width="1366" height="738" />
+    </state>
+    <state x="1705" y="165" width="672" height="677" key="run.anything.popup/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1597852779415" />
+    <state x="1712" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1597852734320">
+      <screen x="1366" y="0" width="1366" height="738" />
+    </state>
+    <state x="1712" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1597852734320" />
+  </component>
+</project>
