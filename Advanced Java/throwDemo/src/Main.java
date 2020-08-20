@@ -7,13 +7,13 @@ public class Main {
     System.out.println("Hesap = " + manager.getBalance());
     try {
       manager.withdrow(90);
-    } catch (Exception exception) {
+    } catch (BalanceInsufficentException exception) {
       System.out.println(exception.getMessage());
     }
     System.out.println("Hesap = " + manager.getBalance());
     try {
       manager.withdrow(90);
-    } catch (Exception exception) {
+    } catch (BalanceInsufficentException  exception) {
       System.out.println(exception.getMessage());
     }
     System.out.println("Hesap = " + manager.getBalance());

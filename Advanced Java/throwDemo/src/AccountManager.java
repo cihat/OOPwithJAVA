@@ -7,11 +7,11 @@ public class AccountManager {
     balance = getBalance() + amount;
   }
 
-  public void withdrow(double amount) throws Exception {
+  public void withdrow(double amount) throws BalanceInsufficentException {
     if (balance >= amount) {
       balance = getBalance() - amount;
     } else {
-      throw new Exception("Hesaptan Para Çekilemedi... Bakiye yetersiz");
+      throw new BalanceInsufficentException("Hesaptan Para Çekilemedi... Bakiye yetersiz");
     }
   }
 
