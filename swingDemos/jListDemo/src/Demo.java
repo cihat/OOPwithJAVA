@@ -141,10 +141,14 @@ public class Demo extends javax.swing.JFrame {
 
   private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
     model.addElement(txtName.getText());
+    lblMessage.setText("Eleman Eklendi..." + txtName.getText());
+    txtName.setText("");
   }//GEN-LAST:event_btnAddActionPerformed
 
   private void btnRemoveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRemoveActionPerformed
     model.removeElement(txtName.getText());
+    lblMessage.setText("Eleman silindi..." + txtName.getText());
+    txtName.setText("");
   }//GEN-LAST:event_btnRemoveActionPerformed
 
   private void btnRemoveSelecetedActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRemoveSelecetedActionPerformed
