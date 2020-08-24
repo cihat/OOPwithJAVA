@@ -7,10 +7,10 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
     
-    <context:property-placeholder location="classpath:values.properties">
+    <context:property-placeholder location="classpath:values.properties"/>
 
 	<bean id="database" class="springIntro.MsSqlCustomerDal">
-		<property name="connectionString" value="--Sql Server String--  "></property>
+		<property name="connectionString" value="${database.connectionString}"></property>
 
 	</bean>
 	<bean id="service" class="springIntro.CustomerManager">
