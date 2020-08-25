@@ -13,7 +13,7 @@ public class City {
   @Column(name = "name")
   private String name;
 
-  @Column(name = "countryCode")
+  @Column(name = "countrycode")
   private String countryCode;
 
   @Column(name = "district")
@@ -29,6 +29,10 @@ public class City {
     this.countryCode = countryCode;
     this.district = district;
     this.population = population;
+  }
+  
+  public City() {
+    
   }
 
   public int getId() {
