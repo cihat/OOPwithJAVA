@@ -63,3 +63,26 @@ Select REVERSE('Cihat Salik')
 Select CHARINDEX('Sal', 'Cihat Salik', -12)
 
 Select ProductName from Products where CHARINDEX(' ', ProductName, 1) > 0 
+
+Select REPLACE('Cihat Salik', ' ',  '_')
+
+Select REPLACE(ProductName, ' ', '_') as [Alt Tire] from Products
+
+Select SUBSTRING('Engin Demşroğ', 1, 5)
+
+Select Ascii('B')
+
+Select Char(65)
+
+SELECT Distinct Country, City from Customers order by Country
+
+SELECT Distinct Country, City sehir from Customers where City <> 'Nantes'
+
+Select Country, City, Count(*) Adet from Customers group by Country, City having Count(*) > 1 order by Country
+
+Select * from Products p inner join Categories c on p.CategoryID = c.CategoryID
+where p.UnitPrice > 20 order by c.CategoryID
+
+Select p.ProductID, o.OrderDate, od.Quantity * od.UnitPrice as Total from Products as p inner join [Order Details] od on p.ProductID = od.ProductID
+inner join Orders o on o.OrderID = od.OrderID order by p.ProductName, ' ' + o.OrderDate
+
