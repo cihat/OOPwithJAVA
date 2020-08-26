@@ -1,0 +1,37 @@
+Select * from Products
+
+Select ProductId as Id, ProductName as Name from Products
+
+SELECT p.ProductName, p.UnitsInStock * p.UnitPrice as Total, p.ProductID as Counter from Products p
+
+Select p.ProductName + '-' + p.QuantityPerUnit from Products p
+
+Select p.ProductName from Products as p Where UnitsInStock = 0 and UnitsOnOrder > 0
+
+Select * from Products where UnitsInStock=0 or UnitsOnOrder = 0
+
+Select * from Products where ProductName= 'Chai' or UnitsInStock= 0
+
+Select * from Products order by UnitPrice asc, ProductName desc
+
+Select * from Products where ProductName like 'ch%'  /*başında ch olan yani herhangi bir yerinde olan karakter var mı */
+
+Select * from Products where ProductName like '%a'/*sonunda ch olan yani herhangi bir yerinde olan karakter var mı */
+
+Select * from Products where ProductName like '%ch%' /*içind ch olan yani herhangi bir yerinde olan karakter var mı */
+
+Select * from Products where UnitPrice between 10 and 46 order by UnitPrice
+
+Select Count(*) as [Urun Sayisi] from Products
+Select COUNT(ProductName) from Products
+Select COUNT(Region) from Customers
+
+Select Min(UnitPrice) from Products 
+
+Select Max(UnitPrice) from Products
+
+Select Avg(UnitPrice) from Products /*girilen değerin toplamların ortalamasını verir*/
+
+Select Sum(UnitPrice * Quantity) as kazanc from [Order Details]
+
+Select Rand() * 100
