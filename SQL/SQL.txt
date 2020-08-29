@@ -86,3 +86,80 @@ where p.UnitPrice > 20 order by c.CategoryID
 Select p.ProductID, o.OrderDate, od.Quantity * od.UnitPrice as Total from Products as p inner join [Order Details] od on p.ProductID = od.ProductID
 inner join Orders o on o.OrderID = od.OrderID order by p.ProductName, ' ' + o.OrderDate
 
+
+select * from Products as p inner join [Order Details] as od on p.ProductID = od.ProductID where od.ProductID is null
+
+Select * from Customers c left join Orders as o on c.CustomerID = o.CustomerID where o.CustomerID is null 
+/*inner join ise sağındaki ve solundaki tabloların içinde aynı olanları döndürür*/
+/*left join :yazıldığı sıra ile  solundaki tabloda olup sağındaki tabloda olmayanları döndürür*/
+/*right join :yazıldığı sıra ile  sağındaki tabloda olup soldaki tabloda olmayanları döndürür*/
+
+select c.ContactName, c.CustomerID from Orders o  right join Customers as c on o.CustomerID = c.CustomerID where o.CustomerID is null 
+/*is null ise tanımlandığı tablonun içnde null olanları döndürür*/
+ 
+
+ /*Ürün satamamış çalışanı bulan */
+  select * from Employees as e left join Orders as o on e.EmployeeID = o.EmployeeID where o.EmployeeID is null
+
+  /*Hangi üründen kaç tane satmışız , Hangi kategoriden kaç tane satmışız  */
+  Select p.ProductName, count(*) as Adet from Products as p inner join [Order Details] as o on
+  p.ProductID = o.ProductID group by p.ProductName order by ProductName
+
+  /*Hangi üründen kaç tane indirimli satmışız , Hangi kategoriden kaç tane indirimli satmışız  */
+  Select p.ProductName, count(*) as [İndirimli Satış Adeti] from Products as p inner join [Order Details] as o on
+  p.ProductID = o.ProductID where o.Discount >0  group by p.ProductName order by p.ProductName
+
+  -- 2 kolon olacak 1. çalışan ismi 2. kolonda ise 
+  Select c.CategoryName, count(*) as Adet from Products as p inner join Categories as c on p.CategoryID = c.CategoryID
+  inner join [Order Details] as od 
+  on od.ProductID = p.ProductID
+  group by c.CategoryName
+
+
+  -- insert işlemleri
+
+  select * from .Employees
+
+  insert into Categories (CategoryName, Description)
+  values ('Test Category', 'Test Category Description')
+
+  insert into [Order Details] values(10248, 12, 12, 10, 0)
+
+  -- update sorgusu 
+
+  update Categories set CategoryName = 'Test Category 3', Description = 'Test Category 3 Description' where CategoryID >= 9 
+
+  update Territories set TerritoryDescription = 'İç Anadolu ' where RegionID = 1
+  update Territories set TerritoryDescription = 'Marmara' where RegionID = 2
+  update Territories set TerritoryDescription = 'Güney Doğu Anadolu ' where RegionID = 3
+  update Territories set TerritoryDescription = ' Akdeniz ' where RegionID = 4
+
+  -- delete sorgusu 
+  delete from Categories where CategoryID >= 9 ---SİLİNDİ
+
+
+  Select  * from CustomersWork 
+
+  insert into CustomersWork (CustomerId, CompanyName, ContactName) select CustomerId, CompanyName, ContactName from Customers
+
+  delete from CustomersWork
+
+  insert into CustomersWork (CustomerId, CompanyName, ContactName) 
+  select CustomerId, CompanyName, ContactName from Customers
+  where ContactName like '%en%' 
+
+
+  update Customers set CompanyName = CustomersWork.CompanyName
+  from Customers inner join CustomersWork on Customers.CustomerID = CustomersWork.CustomerID
+  where CustomersWork.CompanyName like  '%TEST%'
+
+
+  Select * from Customers
+
+  delete Customers from Customers inner join CustomersWork on 
+  Customers.CustomerID = CustomersWork.CustomerID
+  where CustomersWork.CompanyName like  '%TEST%'
+
+  SELECT CustomerId, CompanyName, ContactName from Customers
+  union
+  SELECT * from CustomersWork
